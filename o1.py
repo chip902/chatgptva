@@ -186,7 +186,7 @@ def process_task(user_input):
 
 # Example usage
 if __name__ == "__main__":
-    question = "Code me up a server side CDP like Data Workbench that is coded in Java and using Apache Solr and Kafka."
+    question = input("I am o1; ask me anything: ")
     result = process_task(question)
     stream_print("--- **Application Started** ---\n")
     final_result = process_task(result)
